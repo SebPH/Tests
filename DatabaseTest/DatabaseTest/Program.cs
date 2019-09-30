@@ -86,15 +86,29 @@ namespace DatabaseTest
             }
         }
 
-        static void Main(string[] args)
+        public static void CreateStoreProcedures(SqlConnection conn, SqlCommand command, string sql)
         {
-            SqlConnection conn = ConnectToDatabase();
-            SqlCommand command = null;
-
-            string sql = "";
-            //InitializeDatabase(conn, command, sql);
-
             sql = "DROP PROCEDURE InsertIntoClients";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Dropped");
+
+            sql = "DROP PROCEDURE InsertIntoFirms";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Dropped");
+
+            sql = "DROP PROCEDURE InsertIntoManagers";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Dropped");
+
+            sql = "DROP PROCEDURE InsertIntoProducts";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Dropped");
+
+            sql = "DROP PROCEDURE InsertIntoAgents";
             command = new SqlCommand(sql, conn);
             command.ExecuteNonQuery();
             Console.WriteLine("Store Procedure Dropped");
@@ -107,8 +121,46 @@ namespace DatabaseTest
             command.ExecuteNonQuery();
             Console.WriteLine("Store Procedure Created");
 
+            sql = "CREATE PROCEDURE InsertIntoFirms \n";
+            sql += "AS\n";
+            sql += "INSERT INTO Firms () VALUES ())";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Created");
+
+            sql = "CREATE PROCEDURE InsertIntoManagers \n";
+            sql += "AS\n";
+            sql += "INSERT INTO Managers () VALUES ()";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Created");
+
+            sql = "CREATE PROCEDURE InsertIntoProducts \n";
+            sql += "AS\n";
+            sql += "INSERT INTO Products () VALUES ()";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Created");
+
+            sql = "CREATE PROCEDURE InsertIntoAgents \n";
+            sql += "AS\n";
+            sql += "INSERT INTO Agents () VALUES ()";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Created");
+        }
+
+        static void Main(string[] args)
+        {
+            SqlConnection conn = ConnectToDatabase();
+            SqlCommand command = null;
+            string sql = "";
+
+            //InitializeDatabase(conn, command, sql);
+            //CreateStoredProcedures(conn, command, sql);
+
             // Insert Query
-            sql = "INSERT INTO Clients (client_id, name, email, phone, funds) VALUES (0, 'admin', 'admin@ca.com', '', 0)";
+            //sql = "INSERT INTO Clients (client_id, name, email, phone, funds) VALUES (0, 'admin', 'admin@ca.com', '', 0)";
             //command = new SqlCommand(sql, conn);
             //command.ExecuteNonQuery();
             //Console.WriteLine("Item Inserted");
