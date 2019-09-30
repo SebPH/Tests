@@ -91,21 +91,32 @@ namespace DatabaseTest
             SqlConnection conn = ConnectToDatabase();
             SqlCommand command = null;
 
-            //string sql = "SELECT 1 FROM dbo";
-            //command = new SqlCommand(sql, conn);
-            //Console.WriteLine("Result: " + command.ExecuteReader().Read());
+            string sql = "";
+            //InitializeDatabase(conn, command, sql);
 
-            //if (command == null) {
-            //    sql = "";
-            //    InitializeDatabase(conn, command, sql);
-            //}
+            sql = "DROP PROCEDURE InsertIntoClients";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Dropped");
 
-            Console.WriteLine("Here were are...");
+            // Creating Stored Procedures
+            sql = "CREATE PROCEDURE InsertIntoClients @client_id INT, @name VARCHAR(100), @email VARCHAR(100), @phone VARCHAR(100), @funds INT\n";
+            sql += "AS\n";
+            sql += "INSERT INTO Clients (client_id, name, email, phone, funds) VALUES (@client_id, @name, @email, @phone, @funds)";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Store Procedure Created");
+
             // Insert Query
-            //sql = "INSERT INTO Profiles.Clients (client_id, name, email, phone, funds) VALUES (0, 'admin', 'admin@ca.com', null, null))";
+            sql = "INSERT INTO Clients (client_id, name, email, phone, funds) VALUES (0, 'admin', 'admin@ca.com', '', 0)";
             //command = new SqlCommand(sql, conn);
             //command.ExecuteNonQuery();
+            //Console.WriteLine("Item Inserted");
 
+            sql = "EXEC InsertIntoClients @client_id = 1, @name = 'Lee', @email = 'lee@ca.com', @phone = '111-111-1111', @funds = 562883";
+            command = new SqlCommand(sql, conn);
+            command.ExecuteNonQuery();
+            Console.WriteLine("Item Inserted");
 
             conn.Close();
             Console.WriteLine("End of Program");

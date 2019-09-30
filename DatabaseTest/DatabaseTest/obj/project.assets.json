@@ -6553,11 +6553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shincapie\\Desktop\\DatabaseAccess\\DatabaseTest\\DatabaseTest\\DatabaseTest.csproj",
+      "projectUniqueName": "C:\\Users\\shincapie\\Desktop\\App\\DatabaseTest\\DatabaseTest\\DatabaseTest.csproj",
       "projectName": "DatabaseTest",
-      "projectPath": "C:\\Users\\shincapie\\Desktop\\DatabaseAccess\\DatabaseTest\\DatabaseTest\\DatabaseTest.csproj",
+      "projectPath": "C:\\Users\\shincapie\\Desktop\\App\\DatabaseTest\\DatabaseTest\\DatabaseTest.csproj",
       "packagesPath": "C:\\Users\\shincapie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shincapie\\Desktop\\DatabaseAccess\\DatabaseTest\\DatabaseTest\\obj\\",
+      "outputPath": "C:\\Users\\shincapie\\Desktop\\App\\DatabaseTest\\DatabaseTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
