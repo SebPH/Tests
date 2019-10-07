@@ -1,0 +1,145 @@
+<!dochtml>
+<html lang=en>
+<head>
+	<title> Sample Website </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src=""> </script>
+	<script type="application/javascript" src=""> </script>
+<head>
+<style>
+body{
+	background-color: #008080;
+}
+.title{
+	color: white;
+	padding: 20px;
+	border-style: solid;
+	border-width: 5px;
+
+}
+#task{
+	background-color: silver;
+	color: black;
+	border-color: black;
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px;
+}
+#goals {
+	background-color: silver;
+	color: black;
+	border-color: black;
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px;
+}
+#form {
+	background-color: silver;
+	color: black;
+	border-color: black;
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px;
+}
+#login{
+	background-color: silver;
+	color: black;
+	border-color: black;
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	margin: 10px;
+}
+#footer {
+	text-align: center;
+	color: white;
+}
+</style>
+<body>
+	<h1 class="title" style="text-align: center"> SAMPLE </h1>
+	<div id="task">
+		<h3> Automating the following: </h3>
+		<ul>
+		  <li> TextBox Fill in </li>
+		  <li> Button Click </li>
+		  <li> Drop-down list Selection </li>
+		  <li> Radio Button Selection </li>
+		  <li> Checkbox Selection </li>
+		</ul>
+	</div>
+	
+	<div id="goals">
+		<h3> Goals: </h3>
+		<ul>
+			<li> Create Basic Sample Page </li>
+			<li> Test Sample Page Automation with Selenium </li>
+			<li> Test Sample Page Automation with Selenium + Canopy </li>
+			<li> Test Sample Page Automation with Cucumber </li>
+		</ul>
+	</div>
+	
+	<div id="form">
+		<h2 style="text-align: center"> Sign Up </h2>
+		<form>
+			First name:
+			<input type="text" name="firstname"> &nbsp
+			Last name:
+			<input type="text" name="lastname"> &nbsp
+			Address:
+			<input type="text" name="address"> &nbsp
+			Age:
+			<input type="text" name="age"> &nbsp
+			Phone:
+			<input type="text" name="phone"> </br></br>
+			
+			Gender Selection:
+			<input type="radio" name="gender1" value="male"> Male &nbsp
+			<input type="radio" name="gender2" value="female"> Female &nbsp
+			<input type="radio" name="gender3" value="other"> Other </br></br>
+			
+			Transportation Selection:
+			<input type="checkbox" name="vehicle1" value="Bike"> I have a bike &nbsp
+			<input type="checkbox" name="vehicle2" value="Car"> I have a car &nbsp
+			<input type="checkbox" name="vehicle3" value="Boat"> I have a boat &nbsp
+			<input type="checkbox" name="vehicle3" value="Boat"> I have a horse
+			</br></br>
+			
+			Snack Selection:
+			<select id="snack-selection">
+			  <option value=" "> Select </option> 
+			  <option value="Cookies"> Cookies </option>
+			  <option value="Cake"> Cake </option>
+			  <option value="Ice Cream"> Ice Cream </option>
+			  <option value="Wine"> Wine </option>
+			</select></br></br>
+			
+			<h4 style="text-align: center"> Create Login </h4>
+			Email:
+			<input type="text" name="signup-email"> &nbsp
+			Password:
+			<input type="text" name="signup-password"> </br></br>
+			
+			<button name="signup-submit" type="button" onclick="window.location.href = 'signup.html'" style="text-align: center"> Sign-Up </button>
+
+		</form>
+	</div>
+	<div id="login">
+			<h4 style="text-align: center"> Login </h4>
+			Email:
+			<input type="text" name="signin-email"> &nbsp
+			Password:
+			<input type="text" name="signin-password"> </br></br>
+		    <button name="signin-submit" type="button" onclick="window.location.href = 'login.html'" style="text-align: center"> Login </button></br>
+	</div>
+	<div id="footer">
+		<strong> Sample Page 2019 </strong>
+	</div>
+		
+
+</body>
+</html>

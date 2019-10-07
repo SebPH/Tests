@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnitTestAdapter" Version="2.2.0" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="76.0.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.24.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="77.0.3865.4000" />
+    <PackageReference Include="Selenium.WebDriver.IEDriver" Version="3.150.0" />
+  </ItemGroup>
+
+</Project>
