@@ -1,4 +1,4 @@
-TESTING Microsoft Sql Server
+TESTING Microsoft Sql Server \n
 Sample database implementation to store and access data
 
 Test:
