@@ -10,17 +10,27 @@ TESTING AUTOMATION
 Host sample page on either XAMPP, Nodejs, or any other server that you're familiar with
 
 XAMPP
+
 > download - https://www.apachefriends.org/index.html
+
 > place folder inside of htdocs folder e.g. c:/xampp/htdocs/SeleniumProject
+
 > check that port 80 is not in use, if it is change it to 8012
+
 > start apache server
 
 Nodejs
+
 > download - https://nodejs.org/en/
+
 > place folder in any directory that's easy to access
+
 > on the command prompt go to the folder dir e.g. c:/Users/<username>/Desktop/SeleniumProject/
+  
 > make sure that you have the following packages: express, fs, cors. Otherwise do, npm install <package-name>
+  
 > finally run, node server.js on cmd, you get a message stating that where you're currently hosting
+
 > open up browser and go to url location
 
 Once you have hosted the page, copy your localhost url e.g. "http://localhost:80/SeleniumProject/"
