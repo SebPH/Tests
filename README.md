@@ -1,10 +1,10 @@
-<<TESTING Microsoft Sql Server>>
+TESTING Microsoft Sql Server
 Sample database implementation to store and access data
 
 Test:
 DatabaseTest
 
-<<TESTING AUTOMATION>>
+TESTING AUTOMATION
 Host sample page on either XAMPP, Nodejs, or any other server that you're familiar with
 
 Once you have hosted the page, copy your localhost url e.g. "http://localhost:80/SeleniumProject/"
