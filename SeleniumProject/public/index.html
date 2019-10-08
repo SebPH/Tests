@@ -78,8 +78,9 @@ body{
 		<ul>
 			<li> Create Basic Sample Page </li>
 			<li> Test Sample Page Automation with Selenium </li>
+			<li> Test Sample Page Automation with Canopy
 			<li> Test Sample Page Automation with Selenium + Canopy </li>
-			<li> Test Sample Page Automation with Cucumber </li>
+			<li> Test Sample Page Automation with Selenium + Cucumber </li>
 		</ul>
 	</div>
 	
@@ -87,54 +88,54 @@ body{
 		<h2 style="text-align: center"> Sign Up </h2>
 		<form>
 			First name:
-			<input type="text" name="firstname"> &nbsp
+			<input type="text" id="firstname"> &nbsp
 			Last name:
-			<input type="text" name="lastname"> &nbsp
+			<input type="text" id="lastname"> &nbsp
 			Address:
-			<input type="text" name="address"> &nbsp
+			<input type="text" id="address"> &nbsp
 			Age:
-			<input type="text" name="age"> &nbsp
+			<input type="text" id="age"> &nbsp
 			Phone:
-			<input type="text" name="phone"> </br></br>
+			<input type="text" id="phone"> </br></br>
 			
 			Gender Selection:
-			<input type="radio" name="gender1" value="male"> Male &nbsp
-			<input type="radio" name="gender2" value="female"> Female &nbsp
-			<input type="radio" name="gender3" value="other"> Other </br></br>
+			<input type="radio" id="gender1" value="male"> Male &nbsp
+			<input type="radio" id="gender2" value="female"> Female &nbsp
+			<input type="radio" id="gender3" value="other"> Other </br></br>
 			
 			Transportation Selection:
-			<input type="checkbox" name="vehicle1" value="Bike"> I have a bike &nbsp
-			<input type="checkbox" name="vehicle2" value="Car"> I have a car &nbsp
-			<input type="checkbox" name="vehicle3" value="Boat"> I have a boat &nbsp
-			<input type="checkbox" name="vehicle3" value="Boat"> I have a horse
+			<input type="checkbox" id="vehicle1" value="Bike"> I have a bike &nbsp
+			<input type="checkbox" id="vehicle2" value="Car"> I have a car &nbsp
+			<input type="checkbox" id="vehicle3" value="Boat"> I have a boat &nbsp
+			<input type="checkbox" id="vehicle4" value="Boat"> I have a horse
 			</br></br>
 			
 			Snack Selection:
 			<select id="snack-selection">
 			  <option value=" "> Select </option> 
-			  <option value="Cookies"> Cookies </option>
-			  <option value="Cake"> Cake </option>
-			  <option value="Ice Cream"> Ice Cream </option>
-			  <option value="Wine"> Wine </option>
+			  <option id="cookies" value="Cookies"> Cookies </option>
+			  <option id="cake" value="Cake"> Cake </option>
+			  <option id="ice-cream" value="Ice Cream"> Ice Cream </option>
+			  <option id="wine" value="Wine"> Wine </option>
 			</select></br></br>
 			
 			<h4 style="text-align: center"> Create Login </h4>
 			Email:
-			<input type="text" name="signup-email"> &nbsp
+			<input type="text" id="signup-email"> &nbsp
 			Password:
-			<input type="text" name="signup-password"> </br></br>
+			<input type="text" id="signup-password"> </br></br>
 			
-			<button name="signup-submit" type="button" onclick="window.location.href = 'signup.html'" style="text-align: center"> Sign-Up </button>
+			<button id="signup-submit" type="button" onclick="window.location.href = 'signup.html'" style="text-align: center"> Sign-Up </button>
 
 		</form>
 	</div>
 	<div id="login">
 			<h4 style="text-align: center"> Login </h4>
 			Email:
-			<input type="text" name="signin-email"> &nbsp
+			<input type="text" id="signin-email"> &nbsp
 			Password:
-			<input type="text" name="signin-password"> </br></br>
-		    <button name="signin-submit" type="button" onclick="window.location.href = 'login.html'" style="text-align: center"> Login </button></br>
+			<input type="text" id="signin-password"> </br></br>
+		    <button id="signin-submit" type="button" onclick="window.location.href = 'login.html'" style="text-align: center"> Login </button></br>
 	</div>
 	<div id="footer">
 		<strong> Sample Page 2019 </strong>
