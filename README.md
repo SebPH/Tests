@@ -6,6 +6,7 @@ Test:
 DatabaseTest
 
 TESTING AUTOMATION
+
 Host sample page on either XAMPP, Nodejs, or any other server that you're familiar with
 
 XAMPP
