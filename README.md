@@ -6,6 +6,7 @@ DatabaseTest
 
 TESTING AUTOMATION
 Host sample page on either XAMPP, Nodejs, or any other server that you're familiar with
+
 XAMPP
 > download - https://www.apachefriends.org/index.html
 > place folder inside of htdocs folder e.g. c:/xampp/htdocs/SeleniumProject
