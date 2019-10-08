@@ -74,6 +74,7 @@ namespace SeleniumSample
             signUpButton.Click();
 
             driver.Navigate().Back();
+
             // Login
             IWebElement loginemailTextBox = driver.FindElement(By.XPath(".//*[@id='signin-email']"));
             loginemailTextBox.SendKeys("JohnSnow@gmail.com");
@@ -81,6 +82,9 @@ namespace SeleniumSample
             loginpasswordTextBox.SendKeys("Stark_Tygerian");
             IWebElement signInButton = driver.FindElement(By.XPath(".//*[@id='signin-submit']"));
             signInButton.Click();
+
+            driver.Navigate().Back();
+            driver.Navigate().Refresh();
 
             driver.Close();
 

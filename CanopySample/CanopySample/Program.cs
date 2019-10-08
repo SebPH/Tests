@@ -9,14 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using canopy;
+using canopy.runner;
+using canopy.parallell;
 using _ = canopy.csharp.canopy;
-using nav = canopy.parallell.functions.Navigate;
 
 namespace SeleniumSample
 {
     class Program
     {
-        public static nav back;
         static void Main(string[] args)
         {
             // IP ADDRESS: 172.25.32.37
@@ -70,10 +70,11 @@ namespace SeleniumSample
             // Fill in Password
             _.write("#signup-password", "Stark_Tygerian");
 
-            //_.click("#signup-submit");
+            _.sleep(2);
+            _.click("#signup-submit");
+            _.sleep(2);
 
-            //_.reload();
-            //_.navigate(back);
+            _.navigate(functions.Navigate.Back);
 
             // LOGIN
             // Fill in Email
@@ -82,7 +83,12 @@ namespace SeleniumSample
             // Fill in Password
             _.write("#signin-password", "Start_Tygerian");
 
+            _.sleep(2);
             _.click("#signin-submit");
+            _.sleep(2);
+
+            _.navigate(functions.Navigate.Back);
+            _.sleep(2);
 
             // Quit Browser
             _.quit();

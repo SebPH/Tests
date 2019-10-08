@@ -1,0 +1,8 @@
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\bin\Debug\netcoreapp3.0\SpecFlowDemo.deps.json
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\bin\Debug\netcoreapp3.0\SpecFlowDemo.dll
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\bin\Debug\netcoreapp3.0\SpecFlowDemo.pdb
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\obj\Debug\netcoreapp3.0\SpecFlowDemo.AssemblyInfoInputs.cache
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\obj\Debug\netcoreapp3.0\SpecFlowDemo.AssemblyInfo.cs
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\obj\Debug\netcoreapp3.0\SpecFlowDemo.dll
+C:\Users\shincapie\Desktop\App\SpecFlowDemo\SpecFlowDemo\obj\Debug\netcoreapp3.0\SpecFlowDemo.pdb

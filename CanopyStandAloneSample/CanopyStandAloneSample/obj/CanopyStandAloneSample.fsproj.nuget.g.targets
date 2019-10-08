@@ -3,4 +3,10 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.iedriver\3.150.0\build\Selenium.WebDriver.IEDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.iedriver\3.150.0\build\Selenium.WebDriver.IEDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.chromedriver\2.46.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.chromedriver\2.46.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.firefox.webdriver\0.24.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.firefox.webdriver\0.24.0\build\Selenium.Firefox.WebDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.chrome.webdriver\2.46.0\build\Selenium.Chrome.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.chrome.webdriver\2.46.0\build\Selenium.Chrome.WebDriver.targets')" />
+  </ImportGroup>
 </Project>
