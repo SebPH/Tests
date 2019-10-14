@@ -33,18 +33,22 @@ namespace SeleniumSample
             // Adding Firstname
             IWebElement firstnameTextBox = driver.FindElement(By.XPath(".//*[@id='firstname']"));
             firstnameTextBox.SendKeys("John");
+            System.Threading.Thread.Sleep(10000);
 
             // Adding Lastname
             IWebElement lastnameTextBox = driver.FindElement(By.XPath(".//*[@id='lastname']"));
             lastnameTextBox.SendKeys("Snow");
+            System.Threading.Thread.Sleep(10000);
 
             // Adding Adddress
             IWebElement addressTextBox = driver.FindElement(By.XPath(".//*[@id='address']"));
             addressTextBox.SendKeys("4100 Fairfax Drive, Arlington VA");
+            System.Threading.Thread.Sleep(10000);
 
             // Adding Age
             IWebElement ageTextBox = driver.FindElement(By.XPath(".//*[@id='age']"));
             ageTextBox.SendKeys("25");
+            System.Threading.Thread.Sleep(10000);
 
             // Adding Phone Number
             IWebElement phoneTextBox = driver.FindElement(By.XPath(".//*[@id='phone']"));

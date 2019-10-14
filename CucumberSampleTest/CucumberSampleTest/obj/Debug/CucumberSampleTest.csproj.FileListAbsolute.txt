@@ -25,3 +25,4 @@ C:\Users\shincapie\Desktop\App\CucumberSampleTest\CucumberSampleTest\bin\Debug\W
 C:\Users\shincapie\Desktop\App\CucumberSampleTest\CucumberSampleTest\obj\Debug\CucumberSampleTest.csproj.CopyComplete
 C:\Users\shincapie\Desktop\App\CucumberSampleTest\CucumberSampleTest\obj\Debug\CucumberSampleTest.dll
 C:\Users\shincapie\Desktop\App\CucumberSampleTest\CucumberSampleTest\obj\Debug\CucumberSampleTest.pdb
+C:\Users\shincapie\Desktop\App\CucumberSampleTest\CucumberSampleTest\obj\Debug\CucumberSampleTest.csprojAssemblyReference.cache

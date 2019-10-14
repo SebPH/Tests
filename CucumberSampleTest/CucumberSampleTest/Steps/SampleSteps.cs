@@ -86,7 +86,7 @@ namespace CucumberSampleTest.Steps
             driver.Navigate().Back();
             driver.Navigate().Refresh();
         }
-        
+
         [Then(@"user exits")]
         public void ThenUserExits()
         {

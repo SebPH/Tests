@@ -10,13 +10,13 @@
         "dependencies": {
           "NUnit": "3.12.0",
           "NUnitTestAdapter": "2.2.0",
-          "Selenium.Chrome.WebDriver": "76.0.0",
+          "Selenium.Chrome.WebDriver": "2.46.0",
           "Selenium.Firefox.WebDriver": "0.24.0",
           "Selenium.Helper": "1.0.1",
           "Selenium.Mozilla.Firefox.Webdriver": "0.6.0.1",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
-          "Selenium.WebDriver.ChromeDriver": "77.0.3865.4000",
+          "Selenium.WebDriver.ChromeDriver": "2.46.0",
           "Selenium.WebDriver.GeckoDriver": "0.25.0",
           "Selenium.WebDriver.GeckoDriver.Win64": "0.25.0",
           "Selenium.WebDriver.IEDriver": "3.150.0",
@@ -169,7 +169,7 @@
         }
       },
       "NUnitTestAdapter/2.2.0": {},
-      "Selenium.Chrome.WebDriver/76.0.0": {},
+      "Selenium.Chrome.WebDriver/2.46.0": {},
       "Selenium.Firefox.WebDriver/0.24.0": {},
       "Selenium.Helper/1.0.1": {
         "runtime": {
@@ -202,7 +202,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/77.0.3865.4000": {},
+      "Selenium.WebDriver.ChromeDriver/2.46.0": {},
       "Selenium.WebDriver.GeckoDriver/0.25.0": {},
       "Selenium.WebDriver.GeckoDriver.Win64/0.25.0": {},
       "Selenium.WebDriver.IEDriver/3.150.0": {},
@@ -661,12 +661,12 @@
       "path": "nunittestadapter/2.2.0",
       "hashPath": "nunittestadapter.2.2.0.nupkg.sha512"
     },
-    "Selenium.Chrome.WebDriver/76.0.0": {
+    "Selenium.Chrome.WebDriver/2.46.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BR3x33O9K0v8OVJ3taMN0m9mEGYmS0hUx/cw8bHLUdy0E3iAw1C8ZxwWokNHn+uPxRsix8LqzSRu3nxSmykAnQ==",
-      "path": "selenium.chrome.webdriver/76.0.0",
-      "hashPath": "selenium.chrome.webdriver.76.0.0.nupkg.sha512"
+      "sha512": "sha512-Gkh70CERkAIcjK4LAKmftKDnh2knRRw2c6BnnI9xhFMA4nbaoGTyxf8416gzLdGu9IeeoTe7xkTS9vWQRCZt9A==",
+      "path": "selenium.chrome.webdriver/2.46.0",
+      "hashPath": "selenium.chrome.webdriver.2.46.0.nupkg.sha512"
     },
     "Selenium.Firefox.WebDriver/0.24.0": {
       "type": "package",
@@ -703,12 +703,12 @@
       "path": "selenium.webdriver/3.141.0",
       "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/77.0.3865.4000": {
+    "Selenium.WebDriver.ChromeDriver/2.46.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RVLfOwToKJ5Dfm3PnKGhYhXlRpQolgYHS5jPd4a/e66RoCQULj7RtegvQrU/PA3DWBmA+p5QHFoNG+Klg419Sg==",
-      "path": "selenium.webdriver.chromedriver/77.0.3865.4000",
-      "hashPath": "selenium.webdriver.chromedriver.77.0.3865.4000.nupkg.sha512"
+      "sha512": "sha512-RVBAodsxROZ3KFbIkKVsHFPSZp/kk+JRB6LbzJ+BYtfCNUQmIb5S1GurPtnBNviJkhU5ZbM4YSsz5oUd5h3Xhw==",
+      "path": "selenium.webdriver.chromedriver/2.46.0",
+      "hashPath": "selenium.webdriver.chromedriver.2.46.0.nupkg.sha512"
     },
     "Selenium.WebDriver.GeckoDriver/0.25.0": {
       "type": "package",
