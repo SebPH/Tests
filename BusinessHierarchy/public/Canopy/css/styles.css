@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+}
+
+.app-level{
+	background-color: white;
+	height: 90%;
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	border: 5px solid red;
+	padding: 5px;
+	overflow: auto;
+}
+
+.mat-admin-level{
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.mat-board-directors{
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.mat-chairman {
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.mat-managing-director {
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.mat-ceo {
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.mat-executive-level{
+	border: 2px dashed purple;
+	padding: 5px;
+}
+
+.mat-president{
+	border: 2px dashed purple;
+	padding: 5px;
+}
+
+.mat-vice-president{
+	border: 2px dashed purple;
+	padding: 5px;
+}
+
+.mat-general-manager{
+	border: 2px dashed purple;
+	padding: 5px;
+}
+
+.mat-head-department{
+	border: 2px dashed purple;
+	padding: 5px;
+}
+
+.mat-name{
+	padding: 5px;
+}
+
+.mat-country{
+	padding: 5px;
+}
+
+.mat-office{
+	padding: 5px;
+}
+
+.mat-vertical{
+	padding: 5px;
+}
+
+.mat-horizontal{
+	padding: 5px;
+}

@@ -1,0 +1,346 @@
+<DOCHTML!>
+<html lang=en>
+<head>
+	<title> Ancestry </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/alertmethods.js"> </script>
+</head>
+<style>
+</style>
+<body>
+	<div class="app-level">
+		<b> ADMINISTRATIVE LEVEL  </b>
+		<div class="mat-admin-level">
+			<b> Board of Directors </b>
+			<div class="mat-board-directors">
+				<div class="mat-name">
+					First name: 
+					<input type="text" class="firstname"> &nbsp
+					Last name:
+					<input type="text" class="lastname"> &nbsp
+				</div>
+				<div class="mat-country">
+					Country Selection:
+					<input type="radio" class="location1" value="location1"> USA &nbsp
+					<input type="radio" class="location2" value="location2"> India &nbsp </br>
+				</div>
+				<div class="mat-office">
+					Office Location:
+					<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+					<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+					<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+					<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+					<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+					<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+				</div>
+				<div class="mat-vertical">
+					Vertical Selection:
+					<select class="vertical">
+					  <option class="vertical0" value=" "> Select </option> 
+					  <option class="vertical1" value="vertical1"> Financial Services </option>
+					  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+					  <option class="vertical3" value="vertical3"> Life Sciences </option>
+					  <option class="vertical4" value="vertical4"> All </option> 
+					</select></br></br>
+				</div>
+				<div class="mat-horizontal">
+					Horizontal Selection:
+					<button class="click1" type="button" onclick="firstButtonClick()" style="text-align: center"> Digital Transformation </button>
+					<button class="click2" type="button" onclick="secondButtonClick()" style="text-align: center"> Analytics </button>
+					<button class="click3" type="button" onclick="thirdButtonClick()" style="text-align: center"> Automation </button>
+					<button class="click4" type="button" onclick="fourthButtonClick()" style="text-align: center"> Product Engineering </button>
+				</div>
+				<div class="mat-chairman">
+					<b> Chairman </b>
+					<div class="mat-name">
+					First name: 
+					<input type="text" class="firstname"> &nbsp
+					Last name:
+					<input type="text" class="lastname"> &nbsp
+					</div>
+					<div class="mat-country">
+						Country Selection:
+						<input type="radio" class="location1" value="location1"> USA &nbsp
+						<input type="radio" class="location2" value="location2"> India &nbsp </br>
+					</div>
+					<div class="mat-office">
+						Office Location:
+						<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+						<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+						<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+						<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+						<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+						<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+					</div>
+					<div class="mat-vertical">
+						Vertical Selection:
+						<select class="vertical">
+						  <option value=" "> Select </option> 
+						  <option class="vertical1" value="vertical1"> Financial Services </option>
+						  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+						  <option class="vertical3" value="vertical3"> Life Sciences </option>
+						  <option class="vertical4" value="vertical4"> All </option> 
+						</select></br></br>
+					</div>
+					<div class="mat-horizontal">
+						Horizontal Selection:
+						<button class="click1" type="button" onclick="firstButtonClick()" style="text-align: center"> Digital Transformation </button>
+						<button class="click2" type="button" onclick="secondButtonClick()" style="text-align: center"> Analytics </button>
+						<button class="click3" type="button" onclick="thirdButtonClick()" style="text-align: center"> Automation </button>
+						<button class="click4" type="button" onclick="fourthButtonClick()" style="text-align: center"> Product Engineering </button>
+					</div>
+					<div class="mat-managing-director">
+						<b> Managing Director </b>
+						<div class="mat-name">
+						First name: 
+						<input type="text" class="firstname" id="firstid" name="first"> &nbsp
+						Last name:
+						<input type="text" class="lastname" id="lastid" name="last"> &nbsp
+						</div>
+						<div class="mat-country">
+							Country Selection:
+							<input type="radio" class="location1" value="location1"> USA &nbsp
+							<input type="radio" class="location2" value="location2"> India &nbsp </br>
+						</div>
+						<div class="mat-office">
+							Office Location:
+							<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+							<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+							<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+							<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+							<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+							<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+						</div>
+						<div class="mat-vertical">
+							Vertical Selection:
+							<select class="vertical">
+							  <option value=" "> Select </option> 
+							  <option class="vertical1" value="vertical1"> Financial Services </option>
+							  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+							  <option class="vertical3" value="vertical3"> Life Sciences </option>
+							  <option class="vertical4" value="vertical4"> All </option> 
+							</select></br></br>
+						</div>
+						<div class="mat-horizontal">
+							Horizontal Selection:
+							<button class="click1" type="button" onclick="firstButtonClick()" style="text-align: center"> Digital Transformation </button>
+							<button class="click2" type="button" onclick="secondButtonClick()" style="text-align: center"> Analytics </button>
+							<button class="click3" type="button" onclick="thirdButtonClick()" style="text-align: center"> Automation </button>
+							<button class="click4" type="button" onclick="fourthButtonClick()" style="text-align: center"> Product Engineering </button>
+						</div>
+
+						<div class="mat-ceo">
+							<b> CEO </b>
+							<div class="mat-name">
+							First name: 
+							<input type="text" class="firstname" id="firstid" name="first"> &nbsp
+							Last name:
+							<input type="text" class="lastname" id="lastid" name="last"> &nbsp
+							</div>
+							<div class="mat-country">
+								Country Selection:
+								<input type="radio" class="location1" value="location1"> USA &nbsp
+								<input type="radio" class="location2" value="location2"> India &nbsp </br>
+							</div>
+							<div class="mat-office">
+								Office Location:
+								<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+								<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+								<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+								<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+								<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+								<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+							</div>
+							<div class="mat-vertical">
+								Vertical Selection:
+								<select class="vertical">
+								  <option value=" "> Select </option> 
+								  <option class="vertical1" value="vertical1"> Financial Services </option>
+								  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+								  <option class="vertical3" value="vertical3"> Life Sciences </option>
+								  <option class="vertical4" value="vertical4"> All </option> 
+								</select></br></br>
+							</div>
+							<div class="mat-horizontal">
+								Horizontal Selection:
+								<button class="click1" type="button" onclick="firstButtonClick()" style="text-align: center"> Digital Transformation </button>
+								<button class="click2" type="button" onclick="secondButtonClick()" style="text-align: center"> Analytics </button>
+								<button class="click3" type="button" onclick="thirdButtonClick()" style="text-align: center"> Automation </button>
+								<button class="click4" type="button" onclick="fourthButtonClick()" style="text-align: center"> Product Engineering </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> </br></br>
+		<div class="mat-executive-level">
+			<b> EXECUTIVE LEVEL </b>
+			<div class="mat-president">
+				<b> President </b>
+				<div class="mat-name">
+					First name: 
+					<input type="text" class="firstname"> &nbsp
+					Last name:
+					<input type="text" class="lastname"> &nbsp
+				</div>
+				<div class="mat-country">
+					Country Selection:
+					<input type="radio" class="location1" value="location1"> USA &nbsp
+					<input type="radio" class="location2" value="location2"> India &nbsp </br>
+				</div>
+				<div class="mat-office">
+					Office Location:
+					<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+					<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+					<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+					<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+					<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+					<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+				</div>
+				<div class="mat-vertical">
+					Vertical Selection:
+					<select class="vertical">
+					  <option value=" "> Select </option> 
+					  <option class="vertical1" value="vertical1"> Financial Services </option>
+					  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+					  <option class="vertical3" value="vertical3"> Life Sciences </option>
+					  <option class="vertical4" value="vertical4"> All </option> 
+					</select></br></br>
+				</div>
+				<div class="mat-horizontal">
+					Horizontal Selection:
+					<button class="click1" type="button" onclick=""" style="text-align: center"> Digital Transformation </button>
+					<button class="click2" type="button" onclick=""" style="text-align: center"> Analytics </button>
+					<button class="click3" type="button" onclick=""" style="text-align: center"> Automation </button>
+					<button class="click4" type="button" onclick=""" style="text-align: center"> Product Engineering </button>
+				</div>
+				<div class="mat-vice-president">
+					<b> Vice President </b>
+					<div class="mat-name">
+						First name: 
+						<input type="text" class="firstname"> &nbsp
+						Last name:
+						<input type="text" class="lastname"> &nbsp
+					</div>
+					<div class="mat-country">
+						Country Selection:
+						<input type="radio" class="location1" value="location1"> USA &nbsp
+						<input type="radio" class="location2" value="location2"> India &nbsp </br>
+					</div>
+					<div class="mat-office">
+						Office Location:
+						<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+						<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+						<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+						<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+						<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+						<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+					</div>
+					<div class="mat-vertical">
+						Vertical Selection:
+						<select class="vertical">
+						  <option value=" "> Select </option> 
+						  <option class="vertical1" value="vertical1"> Financial Services </option>
+						  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+						  <option class="vertical3" value="vertical3"> Life Sciences </option>
+						  <option class="vertical4" value="vertical4"> All </option> 
+						</select></br></br>
+					</div>
+					<div class="mat-horizontal">
+						Horizontal Selection:
+						<button class="click1" type="button" onclick=""" style="text-align: center"> Digital Transformation </button>
+						<button class="click2" type="button" onclick=""" style="text-align: center"> Analytics </button>
+						<button class="click3" type="button" onclick=""" style="text-align: center"> Automation </button>
+						<button class="click4" type="button" onclick=""" style="text-align: center"> Product Engineering </button>
+					</div>
+					<div class="mat-general-manager">
+						<b> General Mananger </b>
+						<div class="mat-name">
+							First name: 
+							<input type="text" class="firstname"> &nbsp
+							Last name:
+							<input type="text" class="lastname"> &nbsp
+						</div>
+						<div class="mat-country">
+							Country Selection:
+							<input type="radio" class="location1" value="location1"> USA &nbsp
+							<input type="radio" class="location2" value="location2"> India &nbsp </br>
+						</div>
+						<div class="mat-office">
+							Office Location:
+							<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+							<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+							<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+							<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+							<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+							<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+						</div>
+						<div class="mat-vertical">
+							Vertical Selection:
+							<select class="vertical">
+							  <option value=" "> Select </option> 
+							  <option class="vertical1" value="vertical1"> Financial Services </option>
+							  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+							  <option class="vertical3" value="vertical3"> Life Sciences </option>
+							  <option class="vertical4" value="vertical4"> All </option> 
+							</select></br></br>
+						</div>
+						<div class="mat-horizontal">
+							Horizontal Selection:
+							<button class="click1" type="button" onclick=""" style="text-align: center"> Digital Transformation </button>
+							<button class="click2" type="button" onclick=""" style="text-align: center"> Analytics </button>
+							<button class="click3" type="button" onclick=""" style="text-align: center"> Automation </button>
+							<button class="click4" type="button" onclick=""" style="text-align: center"> Product Engineering </button>
+						</div>
+						<div class="mat-head-department">
+							<b> Head of Department </b>
+							<div class="mat-name">
+								First name: 
+								<input type="text" class="firstname"> &nbsp
+								Last name:
+								<input type="text" class="lastname"> &nbsp
+							</div>
+							<div class="mat-country">
+								Country Selection:
+								<input type="radio" class="location1" value="location1"> USA &nbsp
+								<input type="radio" class="location2" value="location2"> India &nbsp </br>
+							</div>
+							<div class="mat-office">
+								Office Location:
+								<input type="checkbox" class="Office1" value="Office1"> New Jersey &nbsp
+								<input type="checkbox" class="Office2" value="Office2"> California &nbsp
+								<input type="checkbox" class="Office3" value="Office3"> Gurgaon &nbsp
+								<input type="checkbox" class="Office4" value="Office4"> Bangalore &nbsp
+								<input type="checkbox" class="Office5" value="Office5"> Chennai &nbsp
+								<input type="checkbox" class="Office6" value="Office6"> Pune &nbsp </br>
+							</div>
+							<div class="mat-vertical">
+								Vertical Selection:
+								<select class="vertical">
+								  <option value=" "> Select </option> 
+								  <option class="vertical1" value="vertical1"> Financial Services </option>
+								  <option class="vertical2" value="vertical2"> Communication Engineering </option>
+								  <option class="vertical3" value="vertical3"> Life Sciences </option>
+								  <option class="vertical4" value="vertical4"> All </option> 
+								</select></br></br>
+							</div>
+							<div class="mat-horizontal">
+								Horizontal Selection:
+								<button class="click1" type="button" onclick=""" style="text-align: center"> Digital Transformation </button>
+								<button class="click2" type="button" onclick=""" style="text-align: center"> Analytics </button>
+								<button class="click3" type="button" onclick=""" style="text-align: center"> Automation </button>
+								<button class="click4" type="button" onclick=""" style="text-align: center"> Product Engineering </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		Business Hierarchy Sample Page (Testing Automation with various ways to select elements from HTML
+	</div>
+</body>
+</html>

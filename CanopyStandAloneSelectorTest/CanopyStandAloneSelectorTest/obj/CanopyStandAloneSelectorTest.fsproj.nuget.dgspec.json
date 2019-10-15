@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shincapie\\desktop\\app\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shincapie\\desktop\\app\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shincapie\\desktop\\app\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest.fsproj",
+        "projectName": "CanopyStandAloneSelectorTest",
+        "projectPath": "C:\\Users\\shincapie\\desktop\\app\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest.fsproj",
+        "packagesPath": "C:\\Users\\shincapie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shincapie\\desktop\\app\\CanopyStandAloneSelectorTest\\CanopyStandAloneSelectorTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shincapie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Selenium.Chrome.WebDriver": {
+              "target": "Package",
+              "version": "[2.46.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[2.46.0, )"
+            },
+            "canopy": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "canopy.integration": {
+              "target": "Package",
+              "version": "[1.6.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

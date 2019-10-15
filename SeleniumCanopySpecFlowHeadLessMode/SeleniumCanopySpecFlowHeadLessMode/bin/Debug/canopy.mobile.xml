@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>canopy.mobile</name></assembly>
+<members>
+<member name="M:canopy.mobile.EditDistance.JaroWinklerDistance(System.String,System.String)">
+<summary>
+ Calculates the Jaro-Winkler edit distance between two strings.
+ The edit distance is a metric that allows to measure the amount of similarity between two strings.
+</summary>
+</member>
+<member name="M:canopy.mobile.EditDistance.jaro(System.String,System.String)">
+<summary>
+ The jaro distance between s1 and s2
+</summary>
+</member>
+<member name="M:canopy.mobile.EditDistance.existsInWin``2(System.Char,System.String,``0,``1)">
+<summary>
+ Given an offset and a radius from that offset, 
+ does mChar exist in that part of str?
+</summary>
+</member>
+<member name="T:canopy.mobile.EditDistance">
+<summary>
+ Functions to compute the edit distance between two strings
+ Taken from the Visual F# compiler
+</summary>
+</member>
+<member name="T:canopy.mobile.Exceptions">
+<summary>
+ Contains canopy specific exception
+</summary>
+</member>
+<member name="T:canopy.mobile.Wait">
+<summary>
+ Contains canopy specifc wait helpers.
+</summary>
+</member>
+<member name="M:canopy.mobile.appium.stop">
+<summary>
+ Starts appium as local service
+</summary>
+</member>
+<member name="M:canopy.mobile.appium.start">
+<summary>
+ Starts appium as local service
+</summary>
+</member>
+<member name="T:canopy.mobile.appium">
+<summary>
+ Contains methods for dealing with [appium](http://appium.io).
+</summary>
+</member>
+<member name="P:canopy.mobile.configuration.androidEmulatorToolName">
+<summary>
+ Android Emulator tool name
+</summary>
+</member>
+<member name="P:canopy.mobile.configuration.assertionTimeout">
+<summary>
+ TimeOut for assertion operations
+</summary>
+</member>
+<member name="P:canopy.mobile.configuration.interactionTimeout">
+<summary>
+ TimeOut for interaction operations
+</summary>
+</member>
+<member name="P:canopy.mobile.configuration.instantTimeout">
+<summary>
+ TimeOut for &quot;instant&quot; operations
+</summary>
+</member>
+<member name="P:canopy.mobile.configuration.elementTimeout">
+<summary>
+ TimeOut for find operations
+</summary>
+</member>
+<member name="T:canopy.mobile.configuration">
+<summary>
+ Contains configuration settings.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.backAndWait(System.String)">
+<summary>
+ Clicks the Android back button and waits for the waitSelector to appear.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.clickAndWait(System.String,System.String)">
+<summary>
+ Clicks an element and waits for the waitSelector to appear.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.screenshot(System.String,System.String)">
+<summary>
+ Takes a screenshot of the emulator and saves it as png.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.notDisplayed(System.String)">
+<summary>
+ Check that an element exists but is not displayed.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.displayed(System.String)">
+<summary>
+ Check that an element exists and is displayed.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.op_ComposeLeft(System.String,System.String)">
+<summary>
+ Writes the given text into the element that was found by the given selector and waits until the text was completely entered.
+ After running this function the keyboard will be closed.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.write(System.String,System.String)">
+<summary>
+ Writes the given text into the element that was found by the given selector and waits until the text was completely entered.
+ After running this function the keyboard will be closed.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.writeIntoElement(System.Boolean,System.String,System.String)">
+<summary>
+ Writes the given text into the element that was found by the given selector and waits until the text was completely entered.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.sleep(System.Double)">
+<summary>
+ Sleeps for x seconds.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.read(System.String)">
+<summary>
+ Reads the text from the given selector
+</summary>
+</member>
+<member name="M:canopy.mobile.core.portrait">
+<summary>
+ Set Orientation to Portrait
+</summary>
+</member>
+<member name="M:canopy.mobile.core.landscape">
+<summary>
+ Set Orientation to Landscape
+</summary>
+</member>
+<member name="M:canopy.mobile.core.orientation(OpenQA.Selenium.ScreenOrientation)">
+<summary>
+ Set Orientation
+</summary>
+</member>
+<member name="M:canopy.mobile.core.last(System.String)">
+<summary>
+ Gets the last element with the given selector.
+ Index starts at 1.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.first(System.String)">
+<summary>
+ Gets the first element with the given selector.
+ Index starts at 1.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.nth(System.Int32,System.String)">
+<summary>
+ Gets the nth element with the given selector.
+ Index starts at 1.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.op_BangEquals(System.String,System.String)">
+<summary>
+ Check that an element does not have a specific value
+</summary>
+</member>
+<member name="M:canopy.mobile.core.op_EqualsEquals(System.String,System.String)">
+<summary>
+ Check that an element has a specific value
+</summary>
+</member>
+<member name="M:canopy.mobile.core.back">
+<summary>
+ Clicks the Android back button.
+ If the keyboard is still open this function hides it.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.hideKeyboard">
+<summary>
+ Hides the keyboard if it is open
+</summary>
+</member>
+<member name="M:canopy.mobile.core.click(System.String)">
+<summary>
+ Clicks the first element that is found with the selector.
+ If a text input is focused, this function clicks the button twice in order to get the focus.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.longPressMeta(System.Int32)">
+<summary>
+ Long press a key with meta state
+</summary>
+</member>
+<member name="M:canopy.mobile.core.longPress(System.Int32)">
+<summary>
+ Long press a key
+</summary>
+</member>
+<member name="M:canopy.mobile.core.pressMeta(System.Int32)">
+<summary>
+ Press a key with meta state
+</summary>
+</member>
+<member name="M:canopy.mobile.core.press(System.Int32)">
+<summary>
+ Press a key
+</summary>
+</member>
+<member name="M:canopy.mobile.core.waitFor(System.String)">
+<summary>
+ Waits until the given selector returns an element or throws an exception when the timeout is reached.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.exists(System.String)">
+<summary>
+ Returns true when the selector matches an element on the current page or otherwise false.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.tryFind(System.String)">
+<summary>
+ Returns the first element that matches the given selector or None if no such element exists right now.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.tryFindBy(OpenQA.Selenium.By)">
+<summary>
+ Returns the first element for a given By or None if no such element exists right now.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.find(System.String)">
+<summary>
+ Returns the first element that matches the given selector.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.findBy(OpenQA.Selenium.By)">
+<summary>
+ Returns the first element for a given By.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.GetSuggestions(System.String)">
+<summary>
+ Returns similar elements for a given selector
+</summary>
+</member>
+<member name="M:canopy.mobile.core.DescribeCurrentView">
+<summary>
+ Prints a description of the current view on the console
+</summary>
+</member>
+<member name="M:canopy.mobile.core.GetAllElementSelectors">
+<summary>
+ Returns all selectors for all elements the current page.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.getAllElements">
+<summary>
+ Returns all elements on the current page.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.findAll(System.String)">
+<summary>
+ Returns all elements for a given selector.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.findAllBy(OpenQA.Selenium.By)">
+<summary>
+ Returns all elements for a given By - without timeout
+</summary>
+</member>
+<member name="M:canopy.mobile.core.getAllTexts">
+<summary>
+ Returns all elements with text on the current page.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.findElementsBy(System.Boolean,Microsoft.FSharp.Core.FSharpOption{OpenQA.Selenium.By},Microsoft.FSharp.Core.FSharpOption{System.String},System.Boolean,System.Double)">
+<summary>
+ Finds elements on the current page for a given By.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.quit">
+<summary>
+ Quits the web driver and appium
+</summary>
+</member>
+<member name="M:canopy.mobile.core.stopEmulator">
+<summary>
+ Stops the emulator process that was started with canopy mobile
+</summary>
+</member>
+<member name="M:canopy.mobile.core.startOnDevice``1(``0)">
+<summary>
+ Starts the given app on a device
+</summary>
+</member>
+<member name="M:canopy.mobile.core.start``1(canopy.mobile.core.AndroidSettings,``0)">
+<summary>
+ Starts the webdriver with the given app.
+</summary>
+</member>
+<member name="M:canopy.mobile.core.startEmulator(canopy.mobile.core.AndroidSettings)">
+<summary>
+ Start an emulator process
+</summary>
+</member>
+<member name="M:canopy.mobile.core.isAndroidEmulatorRunning">
+<summary>
+ Checks whether an Android emulator is already running
+</summary>
+</member>
+<member name="T:canopy.mobile.core">
+<summary>
+ Contains all canopy core functions.
+</summary>
+</member>
+<member name="M:canopy.mobile.selectors.toBy(System.String)">
+<summary>
+ Using conventions convert a string representing a selector to a Selenium By
+</summary>
+</member>
+<member name="P:canopy.mobile.selectors.defaultSelectorConvention">
+<summary>
+ The default Selector convention if none of the configurable Selector conventions are matched
+</summary>
+</member>
+<member name="P:canopy.mobile.selectors.selectorConventions">
+<summary>
+ Selector conventions that determine if a selector matches a pattern and if it does what the resulting By is
+</summary>
+</member>
+<member name="T:canopy.mobile.selectors">
+<summary>
+ Contains convetions that allow easier access to elements.
+</summary>
+</member>
+</members>
+</doc>
