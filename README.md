@@ -61,3 +61,18 @@ Nuget Packages:
 - Selenium (get browser driver -> check your browser version and match it with the WebDriver version
 - Canopy
 - NUnit + NunitAdapter
+
+=============================================================================
+BusinessHierarchy
+
+You can follow the same procedure as the SeleniumProject to get the sample application
+up and running. You can run it either on XAMPP (port 80 or 8012) or on NodeJs (port 8080)
+
+The projects for this sample are the following:
+
+- SeleniumSelectorTest
+- CanopyStandAloneSelectorTest
+- CanopySelectorTest
+- CucumberSpecFlowSelectorTest (uses canopy as well)
+- SeleniumCanopySpecFlowHeadLessMode
+
