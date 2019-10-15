@@ -3349,11 +3349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shincapie\\Desktop\\Tutorials\\SeleniumSample\\SeleniumSample\\SeleniumSample.csproj",
+      "projectUniqueName": "C:\\Users\\shincapie\\Desktop\\App\\SeleniumSample\\SeleniumSample\\SeleniumSample.csproj",
       "projectName": "SeleniumSample",
-      "projectPath": "C:\\Users\\shincapie\\Desktop\\Tutorials\\SeleniumSample\\SeleniumSample\\SeleniumSample.csproj",
+      "projectPath": "C:\\Users\\shincapie\\Desktop\\App\\SeleniumSample\\SeleniumSample\\SeleniumSample.csproj",
       "packagesPath": "C:\\Users\\shincapie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shincapie\\Desktop\\Tutorials\\SeleniumSample\\SeleniumSample\\obj\\",
+      "outputPath": "C:\\Users\\shincapie\\Desktop\\App\\SeleniumSample\\SeleniumSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
