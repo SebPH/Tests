@@ -1,3 +1,5 @@
+This folder contains automation learning material (Selenium, Canopy, SpecFlow)
+
 TESTING Microsoft Sql Server
 
 Sample database implementation to store and access data
